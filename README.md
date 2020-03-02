@@ -38,7 +38,7 @@
 
 
 
-##第一章、项目概述
+## 第一章、项目概述
 
 ### 产品概述
 
@@ -59,7 +59,7 @@
 - _光耦.SchDoc_
 - _TEROS21传感器调研记录.docx_
 
-##第二章、总体设计路线
+## 第二章、总体设计路线
 
 ### 研发树状图
 
@@ -91,58 +91,58 @@
 ![6.png](https://i.loli.net/2020/03/02/MgvJt3O6LxdaTeG.png)
 
 
-##第四章、STM32最小系统设计
+## 第四章、STM32最小系统设计
 
 1. 在功能满足，性能满足的条件下首选STM32F030C8T6
 2. 外围电路参考最小系统板开发
 3. 最小系统包括：主控芯片，复位电路，调试接口，外部晶振，电源，启动方式，去耦电路，指示灯
 
 
-####主控芯片和能源
+#### -主控芯片和能源
 
 主控芯片使用的是STM32030C8T6,供电是3.3V能源
 ![7.png](https://i.loli.net/2020/03/02/hKao41OFv6bUPim.png)
 
-####复位电路
+#### -复位电路
 ![8.png](https://i.loli.net/2020/03/02/OEGyCzR3vMKPx56.png)
 
-####调试接口
+#### -调试接口
 
 主芯片程序下载采用SWD接口电路，SWD接口包括VDD,SWIO,WOCLK,GND四线
 ![9.png](https://i.loli.net/2020/03/02/ZxJdCNAecsMa8vV.png)
 
-####外部晶振
+#### -外部晶振
 ![10.png](https://i.loli.net/2020/03/02/RfxwYSjdM5ogC8U.png)
 
-####启动方式
+#### -启动方式
 ![11.png](https://i.loli.net/2020/03/02/HtlBgdesYkx3zwq.png)
 
-####去耦电路
+#### -去耦电路
 
 用于主控芯片的滤波，PCB设计时应分布在主控芯片能源附近
 ![12.png](https://i.loli.net/2020/03/02/81h2SFPNEbKnlyv.png)
 
-####指示灯
+#### -指示灯
 
  两盏状态指示灯LED1和LED2，进行系统状态的显示．LED10和KED11分别和主芯片GPIO管脚和地连接．串联电阻为限流电阻，防止电流过大损坏发光二极管
 ![13.png](https://i.loli.net/2020/03/02/bsJLACGu1IRgWv7.png)
 
 
 
-##第五章、电源组件设计
+## 第五章、电源组件设计
 
-####开关电源12V转换为5V
+#### 开关电源12V转换为5V
 
 使用芯片MP2315进行电压的转换
 ![14.png](https://i.loli.net/2020/03/02/QOz6Yqw5cHBELs7.png)
 
 
-####5V转3.3V
+#### 5V转3.3V
 
 使用芯片RT9193进行电压转换，主要给主控芯片供电
 ![15.png](https://i.loli.net/2020/03/02/KgDrUpouk2B7iYZ.png)
 
-####12V转3.6V
+#### 12V转3.6V
 
 使用芯片LM317进行电压转换，主要给TTL转SDI-12芯片供电
 ![16.png](https://i.loli.net/2020/03/02/Q84yYtlchrR92Cn.png)
