@@ -1,0 +1,43 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Free Documents|ReportField=ProjectFullPath~Free Documents|ReportField=Title~Bill of Materials For PCB Document [converter2.PcbDoc]|ReportField=TotalQuantity~66|ReportField=ReportTime~16:52:23|ReportField=ReportDate~2020/2/22|ReportField=ReportDateTime~2020/2/22 16:52:23|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~converter2.PcbDoc|ReportField=DataSourceFullPath~C:\Users\47381\Desktop\RS485转SDI-12转换器\Pcb_Converter\converter2.PcbDoc
+1|485_4PIN||485|HDR1X4|485_4PIN|1
+2|104,0603|Capacitor|C1, C10, C11, C12, C13|C0603|Cap|5
+3|电容106|Capacitor|C2|C0603|Cap|1
+4|电容223|Capacitor|C3|C0603|Cap|1
+5|电容105|Capacitor|C4|C0603|Cap|1
+6|电容104|Capacitor|C5|C0603|Cap|1
+7|20P,0603|Capacitor|C6, C7|C0603|Cap|2
+8|10P,0603|Capacitor|C8, C9|C0603|Cap|2
+9|0.1uF,0603|Capacitor|C14, C18|C0603|Cap|2
+10|Cap 1206|Polarized Capacitor (Axial)|C15, C16, C20, C21, C22, C24, C25|LC-1206+|Cap Pol2|7
+11|33pF,0603|Capacitor|C17|C0603|Cap|1
+12|1NF,0603|Capacitor|C19|C0603|Cap|1
+13|100nF,0603|Capacitor|C23|C0603|Cap|1
+14|P6SMB6.8CA|TVS|D1, D2, D6|LC-SMB(DO-214AA)_S1|SMB/DO-214AA P6SMB6.8CA|3
+15|Diode SMA/DO-214AC|1 Amp General Purpose Rectifier|D3, D4, D5|LC-SMA(DO-214AC)_S1|Diode 1N4007, Diode 1N4001, Diode 1N4001|3
+16|P6SMB18CA|TVS|D9|LC-SMB(DO-214AA)_S1|SMB/DO-214AA P6SMB6.8CA|1
+17|绿灯 0603|发光二极管|D10|LC-0603_LED_S1|0603 绿灯|1
+18|黄灯 0603|发光二极管|D11|LC-0603_LED_S1|0603 黄灯|1
+19|16V5A,1206|贴片电阻|FUSE|LC-1206_R|1206 180Ω (1800) 1%|1
+20|CDRH104R-5R2|Inductor|L1|SMD|Inductor|1
+21|SWD|Header, 4-Pin|P2|HDR1X4|Header 4|1
+22|1K|Resistor|R1, R2|LC-0603_R|Res2|2
+23|10K|Resistor, Resistor, Semiconductor Resistor, Semiconductor Resistor, Semiconductor Resistor, Semiconductor Resistor, Semiconductor Resistor|R3, R12, R16, R17, R18, R22, R23|LC-0603_R|Res2, Res2, Res Semi, Res Semi, Res Semi, Res Semi, Res Semi|7
+24|20R|Resistor|R4|LC-0603_R|Res2|1
+25|20K|Resistor|R5|LC-0603_R|Res2|1
+26|40.2K|Resistor|R6|LC-0603_R|Res2|1
+27|7.5K|Resistor|R7|LC-0603_R|Res2|1
+28|100K|Resistor|R8|LC-0603_R|Res2|1
+29|75K|Resistor|R9|LC-0603_R|Res2|1
+30|1.1K|Resistor|R10|LC-0603_R|Res2|1
+31|560R|Resistor|R11|LC-0603_R|Res2|1
+32|120R|Semiconductor Resistor|R19|LC-0603_R|Res Semi|1
+33|SDI_4PIN||SDI_12|HDR1X4|SDI_4PIN|1
+34|SW-PB_V|SWITCH|SW1|3.8*6.1微动开关|SW-PB_V|1
+35|RT9193||U1|SOT-23-5|RT9193X_5P|1
+36|MP2315||U2|TSOT23-8|MP2315|1
+37|STM32F030(051)C8T6||U3|48P|STM32F030C8T6|1
+38|LM317L|Linear Regulator|U4|TO-92-0.6|LM317L|1
+39|SN65LBC184||U5|SO8_N|SN75LBC184|1
+40|SDI_6||V1|SOT23-6_L|SDI_6|1
+41|晶振8MHZ|贴片晶振|Y1|LC-SMD-5032_2P|SMD-5032_2P 11.0592MHZ 20PF 20PPM|1
+42|晶振32.768KHZ|贴片晶振|Y2|LC-SMD-3215_2P FC - 135|SMD-5032_2P 11.0592MHZ 20PF 20PPM|1
